@@ -1,0 +1,12 @@
+server:
+  port: 80
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB  #默认事1M
+      enabled: true  #默认是true
+      max-request-size: 100MB  # 最大请求大小
+      file-size-threshold: 2KB  #文件写入的阈值
+file:
+  dir:
+    disk: D:\IDEA工作区间\spingBoot项目\boot-up-down\file\
